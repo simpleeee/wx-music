@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/list/list",    
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f26b3a",
+    "navigationBarTitleText": "我的地盘",
+    "navigationBarTextStyle":"write"
+  }
+}

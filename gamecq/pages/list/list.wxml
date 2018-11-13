@@ -1,0 +1,12 @@
+<view class='wrap'>
+  <view wx:for="{{musicList}}" class='itemBox'>
+    <image class='rankLogo' src='{{item.pic_s210}}' wx:key="item"></image>
+    <view class='item-right'>
+      <view class="musicItem" wx:for="{{item.content}}" wx:for-item="cell">
+        <text>{{index+1}} . {{cell.title}}</text>
+      </view>
+    </view>
+    
+    <!-- <text class='title'>{{item.name}}</text> -->
+  </view>
+</view>
